@@ -20,9 +20,46 @@
   </nav>
 </header>
 
-<section id="home">
-  <h1>Welcome to Your Academic Project</h1>
-  <p>Introduce your project's main objectives and vision here.</p>
+<section id="home" style="text-align: justify">
+  <h1>Welcome to PANIA</h1>
+  <p style="margin-top: 10px">Alzheimer’s disease (AD) is a degenerative brain disease which affects about 5.7 million Americans, and the number
+    will grow to about 13.8 million by mid-century. AD and related dementia (ADRD) is a multifactorial and heterogeneous
+    disorder that is driven by a constellation of genetic and environmental risk and protective factors. Currently,
+    drug discovery research has not been translated into effective treatments, requiring the community explore novel and
+    alternative treatment methods. Non-pharmacological interventions (NPI), such as sleep, diet，dietary supplements,
+    aerobic exercise, aromatherapy, light therapy, and cognitive training are potentially modifiable and thus offer
+    alternative opportunities for AD/ADRD prevention. Multimodal NPIs have also been reported to be effective in improving
+    cognitive function. However, the synergetic effects of pharmacological interventions (PI) and NPI on ADRD are largely
+    unexplored. Biomedical literature contains much evidence of PI and NPI effects on diseases (including AD/ADRD) and
+    associated gene targets and pathways, allowing us to further understand and discover NPI candidates and their
+    synergistic with PI for AD/ADRD. However, computational tools to mine literature and discover novel PI and NPI for
+    AD/ADRD are still lacking. Using both population-based data (e.g., electronic health records (EHR), Optum Clinformatics®
+    data, clinical trials) and animal studies to re-rank and validate our hypothesis discovered from literature would
+    enable us to identify most plausible PI/NPI candidates and their combinations for AD/ADRD.</p></br>
+  <p><b>Aim 1</b>. Constructing a comprehensive Pharmacological And Non-Pharmacological Interventions for Alzheimer’s Disease
+    Knowledge Graph (PANIA-KG) from biomedical literature and other knowledge bases. We will leverage our prior work to
+    compile and expand an NPI ontology and develop natural language processing (NLP) methods to extract NPI entities and
+    relationships with other biomedical entities from literature. We will integrate the extracted knowledge from literature
+    with other existing knowledge bases to construct a comprehensive knowledge graph, PANIA-KG. The deliverables are NLP
+    tools to extract NPI knowledge from biomedical literature and a comprehensive PANIA-KG integrating multiple knowledge bases.</p></br>
+  <p><b>Aim 2</b>. Detecting, understanding, and visualization of drug repurposing signals of PIs, NPIs, and their synergistical
+    effects for AD/ADRD using the PANIA-KG. Using the PANIA-KG, we will develop novel neural network-based link prediction
+    methods to predict and rank individual PI and NPI candidates as well as the synergistic pairs of those top-ranked PI and
+    NPI candidates (including PI/PI, NPI/NPI and PI/NPI combinations) on AD/ADRD. We will utilize visualization to increase
+    the explainability of the prediction models and understand the underlying mechanism of the synergistic effects. We will
+    deliver signal prediction methods and ranked lists of PI and NPI candidates as well as their combinations on AD/ADRD.</p></br>
+  <p><b>Aim 3</b>. Re-ranking and validating individual and synergistical drug repurposing signals using multimodal data sources
+    and animal models. We will use clinical trials to re-rank and large-scale EHR data to in silico validate individual drug
+    repurposing signals (PIs or NPIs) generated in Aim 2. Furthermore, we will use mouse models to in vivo validate top
+    ranked pairs of PI and NPI candidates. We will deliver the informatics methods for mining clinical trials and EHR and
+    validated individual and synergistic PIs and/or NPIs.</p><br>
+  <p><b>Impact</b>: This is the first application to develop a translational informatics framework to aggregate, standardize and
+    discover the effects of PI and NPI candidates on AD/ADRD using multi-modal data resources (i.e., biomedical literature,
+    EHR, clinical trials) followed by mouse model validation. The successful completion of this project will deliver a
+    comprehensive NPI knowledge graph, novel informatics approaches, ranked list of PI and NPI candidates, and validated
+    synergistic intervention using multi-modal data sources. The generated approaches, PANIA-KG and ranked lists can
+    further our clinical investigations and clinical trial design which focuses on synergistic effects of PIs and NPIs for
+    AD/ADRD.</p>
 </section>
 
 <section id="about">
@@ -45,9 +82,10 @@
 
 <section id="outputs">
   <h2>Academic Outputs</h2>
-  <ul>
-<!--    <li><a href="paper1.pdf">Published Paper 1</a></li>-->
+  <ul style="margin-top: 10px">
+    <li>Hou, Yu, Jeremy Yeung, Hua Xu, Chang Su, Fei Wang, and Rui Zhang. "From Answers to Insights: Unveiling the Strengths and Limitations of ChatGPT and Biomedical Knowledge Graphs." medRxiv (2023): 2023-06.</li>
 <!--    <li><a href="talk1.html">Conference Talk 1</a></li>-->
+    <li>Xiao, Yongkang, Yu Hou, Huixue Zhou, Gayo Diallo, Marcelo Fiszman, Julian Wolfson, Halil Kilicoglu et al. "Repurposing Non-pharmacological Interventions for Alzheimer's Diseases through Link Prediction on Biomedical Literature." medRxiv (2023): 2023-05.</li>
     <!-- Add more output details -->
   </ul>
 </section>
@@ -56,7 +94,18 @@
   <h2>Blog</h2>
   <div class="blog-post">
     <h3>Latest Update</h3>
-    <p>Share your recent project developments and insights.</p>
+<!--    <p>Share your recent project developments and insights.</p>-->
+    <ul style="margin-left: 20px">
+      <li><b>May 30</b>
+        <ul style="margin-left: 20px">
+          <li>Relation extraction (Kalpana/Huixue)</li>
+          <li>Yongkang and Yu have submitted manuscript to npj Digital Medicine</li>
+          <li>Yu has submitted manuscript to JHIR</li>
+          <li>Yale is working on creating AD/ADRD cohort</li>
+          <li>UMN has identified patient cohort</li>
+        </ul>
+      </li>
+    </ul>
   </div>
   <!-- Add more blog posts -->
 </section>
